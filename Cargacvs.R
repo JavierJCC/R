@@ -3,7 +3,7 @@ library(RMySQL)
 library(DBI)
 
 # Cargar archivos cvs desde java 
-archivocsv <- read.csv(file ="/home/javis/Documentos/R/Datafile.csv", header= FALSE, sep=",")
+archivocsv <- read.csv(file ="/home/javis/Documentos/GitHub/R/Datafile.csv", header= FALSE, sep=",")
 
 print(archivocsv)
 
